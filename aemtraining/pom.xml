@@ -640,6 +640,13 @@
     <version>1.0.0</version>
     <scope>provided</scope>
 </dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.felix/maven-scr-plugin -->
+<dependency>
+    <groupId>org.apache.felix</groupId>
+    <artifactId>maven-scr-plugin</artifactId>
+    <version>1.4.1-R822252</version>
+</dependency>
+
         </dependencies>
     </dependencyManagement>
 
