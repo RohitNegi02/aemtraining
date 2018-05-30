@@ -558,10 +558,14 @@
                <version>1.0</version>
                <scope>provided</scope>
            </dependency>
-           <dependency>
-            <groupId>org.apache.felix</groupId>
-            <artifactId>org.apache.felix.scr.annotations</artifactId>
-        </dependency>
+          
+           <!-- https://mvnrepository.com/artifact/org.apache.felix/org.apache.felix.scr.annotations -->
+<dependency>
+    <groupId>org.apache.felix</groupId>
+    <artifactId>org.apache.felix.scr.annotations</artifactId>
+    <version>1.0.1-R822252</version>
+</dependency>
+
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
