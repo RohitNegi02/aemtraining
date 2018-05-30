@@ -21,8 +21,7 @@ import javax.jcr.Session;
 /**
  * Sample workflow process that sets an <code>approve</code> property to the payload based on the process argument value.
  */
-@Component(immediate=true,service = WorkflowProcess.class)
-@Service
+@Component(immediate=true)
 public class MyProcessStep implements WorkflowProcess {
  
     @Property(value = "An example workflow process implementation.")
