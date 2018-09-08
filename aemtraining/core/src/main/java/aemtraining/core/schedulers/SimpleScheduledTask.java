@@ -29,7 +29,10 @@ import org.slf4j.LoggerFactory;
  * set the property values in /system/console/configMgr
  */
 @Designate(ocd=SimpleScheduledTask.Config.class)
-@Component(service=Runnable.class)
+@Component(service=Runnable.class,property = {
+    "configurationFactory=true"
+    
+})
 public class SimpleScheduledTask implements Runnable {
 
     @ObjectClassDefinition(name="A scheduled task",
